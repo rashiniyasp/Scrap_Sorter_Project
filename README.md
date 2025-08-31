@@ -2,6 +2,9 @@
 
 This project is a simulation of an industrial scrap sorting system using computer vision, fulfilling the requirements for the Computer Vision Engineer Intern assignment. It uses a custom-trained YOLOv8 model to detect, classify, and generate pick-points for different types of scrap from a video stream.
 
+## Demo - YouTube
+https://youtu.be/mf_P5BBsIrA
+
 
 ## My Approach
 
@@ -35,7 +38,7 @@ The final pipeline is a Python script using OpenCV that reads a video file, runs
     *Place the `best.pt` file in the main project directory.*
 
 4.  **Run the live inference script:**
-    *Make sure your test video (e.g., `test5.mp4`) is in the project folder and the `VIDEO_SOURCE` variable in `live_inference.py` is updated.*
+    *Make sure your test video  is in the project folder and the `VIDEO_SOURCE` variable in `live_inference.py` is updated.*
     ```bash
     python live_inference.py
     ```
