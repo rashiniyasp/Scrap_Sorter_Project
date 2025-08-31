@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Large files (optional, but good practice)
+*.mp4
+*.pt
