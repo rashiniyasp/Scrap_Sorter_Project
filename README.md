@@ -2,9 +2,6 @@
 
 This project is a simulation of an industrial scrap sorting system using computer vision, fulfilling the requirements for the Computer Vision Engineer Intern assignment. It uses a custom-trained YOLOv8 model to detect, classify, and generate pick-points for different types of scrap from a video stream.
 
-## Demo
-
----
 
 ## My Approach
 
@@ -24,8 +21,9 @@ The final pipeline is a Python script using OpenCV that reads a video file, runs
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/rashiniyasp/Scrap_Sorter_Project.git
+    cd Scrap_Sorter_Project
+
     ```
 2.  **Create a virtual environment and install dependencies:**
     ```bash
